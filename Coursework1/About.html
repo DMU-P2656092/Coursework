@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Allows the website to be viewed on a mobile so the browser knows to adapt to the different screensize. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Allows the website to have the style code written on a different page. -->
+    <!-- Having the style done somewhere else makes the website code easier to read and look more organised. -->
+    <link rel="stylesheet" href="CSS/Style.css">
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <!-- The <header> tag is used to clearly state what type of information is being written here. -->
+        <!-- Title is the class I have given the heading so I can customize it in the css page.. -->
+        <h1 class="Title">The Day the Earth Stood Still</h1>
+      </div>
+      <nav class="AboutLinks">
+        <!-- <nav> is showing that the menue links are being written at the top of the page. -->
+        <!-- Having both links on the main page displays all of the content displayed throughout the website. -->
+        <a class="Link1" href="About.html">About</a>
+        <a class="Link2" href="Cast.html">Cast</a>
+      </nav>
+    </header>
+
+    <article>
+      <!-- Synopsis gives the viewer a brief description of the film. -->
+      <!-- Separating the Synopsis into two sections helps the reader break down the information. -->
+      <div class="Synopsis">
+        <p>The Day the Earth Stood Still is a 2008 American science fiction drama film and a loose adaptation of the 1951 film
+          of the same name. The screenplay by David Scarpa is based on the 1940 science fiction short story "Farewell to the
+          Master" by Harry Bates and the 1951 screenplay adaptation by Edmund H. North.</p>
+        <p>Directed by Scott Derrickson and starring Keanu Reeves as Klaatu, this version replaces the Cold War theme of nuclear
+          warfare with the contemporary issue of humankind's environmental damage to the planet. It follows Klaatu, an alien
+          sent to try to change human behavior or eradicate humans from Earth. (<i>The Day the Earth Stood Still (2008 film)</i>, 2008).</p>
+      </div>
+
+      <div class="Trailer">
+        <!-- Video file gives a sense what the film is about. -->
+        <!-- This ensures the viewer sees the video and does not miss anything. -->
+        <video controls poster="Image/SunRise.jpg.webp">
+          <!-- The postimage is there to cover up the video but gives a sense of what it will feature. -->
+          <!-- It is a jpg as it is a widely used image format and prevents alternate formats being added. -->
+          <source src="Video/Space.mp4" type="video/mp4"/>
+          <!-- Pop up if the browser does not support the video file type -->
+          <!-- MP4 was the default format for the video but also a widely used video format. -->
+          Sorry, your browser does not support this video file format :(
+          <source src="Video/Space.ogg" type="video/ogg">
+          <!-- Pop up if the browser does not support the video file type -->
+          <!-- OGG is not as common so it is the backup format if the MP4 file isn't read by the browser. -->
+          Sorry, your browser does not support this video file format :(
+        </video>
+      </div>
+    </article>
+
+    <!-- Footer sets up additional information to be added at the bottom of the page when being separate from the body of the website. -->
+    <footer class="FooterLink1">
+      <!-- External link to youtube shows the official trailer for the film. -->
+      <a href="https://www.youtube.com/watch?v=nlT5fLxV_wg">YouTube: The Day the Earth Stood Still Trailer</a>
+    </footer>
+  </body>
+</html>

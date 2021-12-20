@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <!-- Allows the website to be viewed on a mobile so the browser knows to adapt to the different screensize. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Allows the website to have the style code written on a different page. -->
+    <!-- Having the style done somewhere else makes the website code easier to read and look more organised. -->
+    <link rel="stylesheet" href="CSS/Style.css">
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <!-- The <header> tag is used to clearly state what type of information is being written here. -->
+        <!-- Title is the class I have given the heading so I can customize it in the css page. -->
+        <h1 class="Title">The Day the Earth Stood Still</h1>
+      </div>
+      <nav class="CastLinks">
+        <!-- <nav> is showing that the menue links are being written at the top of the page. -->
+        <!-- Having both links on the main page displays all of the content displayed throughout the website. -->
+        <a class="Link1" href="About.html">About</a>
+        <a class="Link2" href="Cast.html">Cast</a>
+      </nav>
+    </header>
+    <!-- <article> tage shows where the main body of the page will be. When it comes to looking back at the code, i will not have issues wondering where the information begins and ends. -->
+    <!-- Giving the article a class name gives me a fail-safe is i needed to edit the style of all of the content later in one go.-->
+    <article class="CastInfo">
+      <!-- A class it given to the cast image so i can easily find it and adjust it in the css page.  -->
+      <img class="CastImg1" src="Image/Cast Image 1.webp" alt="Keanu">
+      <!-- The <strong> tag sets certain aspects of the text to appear in bold to make it stand out for the reader. -->
+      <!-- I have done this due to the importnce of the names that are being made bold. -->
+      <p class="CastTxt1-1"><strong>Keanu Reeves</strong> is an Lebanese actor who was 31 years-old at the time of making this film.
+        His previous roles included '<strong>The Matrix</strong>', '<strong>Speed</strong>', and '<strong>The Watcher</strong>'.
+        <strong>Reeves</strong> played a key role in '<strong>The Day The Earth Stood Still</strong>' as the extraterrestrial
+        'Klaatu' who disguises himself as a human to investigate the current behaviour of the human race, and to see whether they are a
+        plague to the planet and whether they should be exterminated.</p>
+      <br> <!-- Page Break gives the two bodies of text some room to space them out and avoids them clashing together when other elemts are moved using css. -->
+      <p class="CastTxt1-2">In the beginning, <strong>Reeves</strong> is shown to be very introverted and finds the way humans act and
+        speak to be very foreign as he carries a stern attitude towards the humans and shows no remorse towards them and what his species
+        are planning. Throughout the film, we see how Reeves' charcater begins to sympathise with humanity, and whilst they have
+        their faults, they do not deserve to be exterminated. This is with the help of a young woman (<strong>Jennifer Connelly</strong>) and her child
+        (<strong>Jayden Smith</strong>).</p>
+        <!-- The control element is added to allow the viewer to play and pause the audio file.  -->
+      <audio class="Audio1" controls>
+        <!-- More than one file format was used in case the browser does not support either one of them. -->
+          <source src="Audio/KeanuReevesInterview.mp3" type="audio/mp3">
+            <!-- Error message should pop up if the audio file is not support by the broawer. -->
+            Sorry, your browser doesn't support this auido file type.
+          <source src="Audio/Keanu.wav" type="audio/wav">
+            Sorry, your browser doesn't support this audio file type.
+      </audio>
+
+  <!-- A class it given to the cast image so i can easily find it and adjust it in the css page.  -->
+      <img class="CastImg2" src="Image/Cast Image 2.jpeg" alt="Jennifer">
+      <!-- The <strong> tag sets certain aspects of the text to appear in bold to make it stand out for the reader. -->
+      <!-- I have done this due to the importnce of the names that are being made bold. -->
+      <p class="CastTxt2-1"><strong>Jennifer Connelly</strong> is an Americn actress, who prior to this movie, worked on other titles
+        such as, '<strong>Blood Diamond</strong>', '<strong>Elf</strong>', and '<strong>Hulk</strong>'. Her charcter, 'Helen Benson'
+        is the mother of 'Jacob Benson' (<strong>Jaden Smith</strong>). She encounters 'Klaatu' (<strong>Keanu Reeves</strong>) rather clearly
+        into the film and attempts to convince him to not destroy the human race in order to save the planet.</p>
+      <br> <!-- Page Break gives the two bodies of text some room to space them out and avoids them clashing together when other elemts are moved using css. -->
+      <p class="CastTxt2-2"> Throughout the film we see the progression that 'Benson' makes in her attempt to convince 'Klaatu' to spare
+        the human race. Originally, she takes the path of desperation and begging, however, as time passes, she begins to understand where 'Klaatu'
+        sees the faults in the humans. Once she realises this, 'Benson' tries to methodically show the innocence and purity of the human race
+        as she now knows that demanding for the species survail will not help at all.</p>
+      <audio class="Audio2" controls>
+          <!-- The control element is added to allow the viewer to play and pause the audio file.  -->
+          <!-- More than one file format was used in case the browser does not support either one of them. -->
+        <source src="Audio/JenniferInterview.wav" type="audio/wav">
+          <!-- Error message should pop up if the audio file is not support by the broawer. -->
+          Sorry, your browser doesn't support this audio file type.
+        <source src="Audio/JenniferInterview.mp3" type="audio/mp3">
+          Sorry, your browser doesn't support this audio file type.
+      </audio>
+
+
+      <img class="CastImg3" src="Image/Cast Image 3.jpeg" alt="Jaden">
+      <!-- The <strong> tag sets certain aspects of the text to appear in bold to make it stand out for the reader. -->
+      <!-- I have done this due to the importnce of the names that are being made bold. -->
+      <p class="CastTxt3-1"><strong>Jaden Smith</strong> was only a child at the time of filming, being only 10 years old. He potrayed the
+        part of 'Jacob Benson', the child of 'Helen Benson' (<strong>Jennifer Connelly</strong>). Whilst being prodominantly a background
+        character, <strong>Smith</strong> plays a key role in the persuasion of the extraterrestrial 'Klaatu'
+        (<strong>Keanu Reeves</strong>) to not exterminate the human race.</p>
+        <br> <!-- Page Break gives the two bodies of text some room to space them out and avoids them clashing together when other elemts are moved using css. -->
+      <p class="CastTxt3-2">Not much attention is brought to 'Jacob' through the majority of the film, it is not until towards the end
+        where the bond between 'Helen' (<strong>Connelly</strong>) and 'Klaatu' (<strong>Reeves</strong>) is formed, that <strong>Smith's</strong>
+        acting really comes to light. When 'Jacob' is hit by the weapon used by the aliens, his desperate grasp onto life is what shows the innocence
+        of the human race, and subsequently is the turning point of the plot.</p>
+      <audio class="Audio3" controls>
+        <!-- The control element is added to allow the viewer to play and pause the audio file.  -->
+        <!-- More than one file format was used in case the browser does not support either one of them. -->
+        <source src="Audio/JadenInterview.wav" type="audio/wav">
+          <!-- Error message should pop up if the audio file is not support by the broawer. -->
+          Sorry, your browser doesn't support this audio file type.
+        <source src="Audio/JadenInterview.mp3" type="audio/mp3">
+          Sorry, your browser doesn't support this audio file type.
+      </audio>
+
+      <img src="Image/SiteImg.jpeg" alt="Alien">
+    </article>
+  <!-- Footer sets up additional information to be added at the bottom of the page when being separate from the body of the website. -->
+    <footer class="FooterLink2">
+      <!-- External link to youtube shows the official trailer for the film. -->
+      <a href="https://www.youtube.com/watch?v=nlT5fLxV_wg">YouTube: The Day the Earth Stood Still Trailer</a>
+    </footer>
+  </body>
+</html>
